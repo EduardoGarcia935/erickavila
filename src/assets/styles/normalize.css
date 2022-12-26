@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+h2{
+  z-index: 10000;
+}
+
+canvas {
+  border: 2px solid black;
+  width: 800px;
+  height: 800px;
+  pointer-events: none;
+}
+
+#home{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#home h1{
+  position: absolute;
+  left: 130px;
+  top: 400px;
+}
+
+#about{
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
