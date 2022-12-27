@@ -1,9 +1,10 @@
 <template>
   <div id="container">
+    <!-- Nav bar -->
     <nav ref="navbar" id="nav">
       <div class="group1" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
         <div class="img-container">
-          <img src="./assets/images/logo.png" alt="">
+          <img src="./assets/images/logo_navBar.png" alt="">
         </div>
       </div>
       <div class="group2">
