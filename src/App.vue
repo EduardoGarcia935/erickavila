@@ -1,5 +1,6 @@
 <template>
   <div id="container">
+    <NavBar/>
     <HomeVue/>
     <ProjectsVue/>
     <AboutVue/>
@@ -8,6 +9,7 @@
 </template>
 
 <script>
+import NavBar from './components/elements/NavBar.vue';
 import HomeVue from './components/views/Home.vue';
 import ProjectsVue from './components/views/Projects.vue';
 import AboutVue from './components/views/About.vue';
@@ -20,14 +22,13 @@ export default {
     ProjectsVue,
     AboutVue,
     ContactVue,
-  }
+    NavBar
+}
 }
 </script>
 
 <style scoped>
   #container{
-    width: 100vw;
-    min-width: 100vw;
-    height: 100%;
+    overflow-x: hidden;
   }
 </style>
