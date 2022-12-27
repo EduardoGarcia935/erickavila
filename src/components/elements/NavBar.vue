@@ -20,7 +20,7 @@
         <div class="hamburguer" @click="toggleMenu" :class="{hamburguer_active : x}"></div>
     </div>
 
-    <ul class="group4">
+    <ul class="group4" :class="{actived_navbar : x}">
       <li>
         <a href="#">Home</a>
       </li>
@@ -50,7 +50,7 @@
     },
     methods:{
       toggleMenu(){
-        this.x = !this.x
+        this.x = !this.x;
       }
     },
     mounted(){
@@ -145,7 +145,6 @@
   .hamburguer_active{
         width: 40px;
         height: 40px;
-        position: relative;
         cursor: pointer;
     }
     
@@ -191,13 +190,18 @@
     height: 100vh;
     position: fixed;
     top: 0;
-    left: 0;
+    right: -1100px;
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    transition: all 800ms ease;
+  }
+
+  .actived_navbar{
+    right: 0;
   }
 
   .group4 li{
