@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    About
+    <h2 data-aos="fade-left" data-aos-duration="2000">About</h2>
   </div>
 </template>
 
@@ -22,6 +22,11 @@
     min-width: 100vw;
     height: 100vh;
     min-height: 100vh;
-    background-color: var(--purple);
+    background-color: var(--black);
+    color: var(--white);
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 </style>

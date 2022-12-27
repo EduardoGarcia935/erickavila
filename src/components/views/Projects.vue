@@ -22,6 +22,8 @@
     min-width: 100vw;
     height: 100vh;
     min-height: 100vh;
-    background-color: var(--red);
+    background-color: var(--yellow);
+    color: var(--white);
+    border-top: 1px solid white;
   }
 </style>

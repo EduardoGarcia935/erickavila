@@ -1,6 +1,6 @@
 <template>
   <div id="container">
-    Contact
+    <h2 data-aos="fade-up" data-aos-duration="2000">Contact</h2>
   </div>
 </template>
 
@@ -22,6 +22,15 @@
     min-width: 100vw;
     height: 100vh;
     min-height: 100vh;
-    background-color: var(--yellow);
+    background-color: var(--red);
+    color: var(--white);
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2{
+    margin: 0 auto;
   }
 </style>
